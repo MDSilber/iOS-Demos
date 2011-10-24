@@ -1,0 +1,4 @@
+These are all separate demos I created for the weekly iOS workshops I've been leading for the last few weeks. I've done a few of them so far, and the others are ones I've prepared for future weeks. 
+
+Bear in mind that some linking flags and things might cause unexpected errors because they're machine dependent (i.e. you'll have to edit them yourself if you want to build the project), but XCode will show you where the errors are and you can correct it from there.
+
