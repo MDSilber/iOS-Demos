@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		280A3831141973C300905842 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280A3830141973C300905842 /* UIKit.framework */; };
+		280A3833141973C300905842 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280A3832141973C300905842 /* Foundation.framework */; };
+		280A3839141973C300905842 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 280A3837141973C300905842 /* InfoPlist.strings */; };
+		280A383B141973C300905842 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 280A383A141973C300905842 /* main.m */; };
+		280A383F141973C300905842 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 280A383E141973C300905842 /* AppDelegate.m */; };
+		280A3842141973C300905842 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 280A3841141973C300905842 /* ViewController.m */; };
+		280A3845141973C300905842 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280A3843141973C300905842 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		280A382C141973C300905842 /* ColorPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		280A3830141973C300905842 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		280A3832141973C300905842 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		280A3836141973C300905842 /* ColorPickerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorPickerDemo-Info.plist"; sourceTree = "<group>"; };
+		280A3838141973C300905842 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		280A383A141973C300905842 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		280A383C141973C300905842 /* ColorPickerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorPickerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		280A383D141973C300905842 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		280A383E141973C300905842 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		280A3840141973C300905842 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		280A3841141973C300905842 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		280A3844141973C300905842 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		280A3829141973C300905842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280A3831141973C300905842 /* UIKit.framework in Frameworks */,
+				280A3833141973C300905842 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		280A3821141973C300905842 = {
+			isa = PBXGroup;
+			children = (
+				280A3834141973C300905842 /* ColorPickerDemo */,
+				280A382F141973C300905842 /* Frameworks */,
+				280A382D141973C300905842 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		280A382D141973C300905842 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				280A382C141973C300905842 /* ColorPickerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		280A382F141973C300905842 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				280A3830141973C300905842 /* UIKit.framework */,
+				280A3832141973C300905842 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		280A3834141973C300905842 /* ColorPickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				280A383D141973C300905842 /* AppDelegate.h */,
+				280A383E141973C300905842 /* AppDelegate.m */,
+				280A3840141973C300905842 /* ViewController.h */,
+				280A3841141973C300905842 /* ViewController.m */,
+				280A3843141973C300905842 /* ViewController.xib */,
+				280A3835141973C300905842 /* Supporting Files */,
+			);
+			path = ColorPickerDemo;
+			sourceTree = "<group>";
+		};
+		280A3835141973C300905842 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				280A3836141973C300905842 /* ColorPickerDemo-Info.plist */,
+				280A3837141973C300905842 /* InfoPlist.strings */,
+				280A383A141973C300905842 /* main.m */,
+				280A383C141973C300905842 /* ColorPickerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		280A382B141973C300905842 /* ColorPickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280A3848141973C300905842 /* Build configuration list for PBXNativeTarget "ColorPickerDemo" */;
+			buildPhases = (
+				280A3828141973C300905842 /* Sources */,
+				280A3829141973C300905842 /* Frameworks */,
+				280A382A141973C300905842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorPickerDemo;
+			productName = ColorPickerDemo;
+			productReference = 280A382C141973C300905842 /* ColorPickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		280A3823141973C300905842 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Columbia University";
+			};
+			buildConfigurationList = 280A3826141973C300905842 /* Build configuration list for PBXProject "ColorPickerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 280A3821141973C300905842;
+			productRefGroup = 280A382D141973C300905842 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				280A382B141973C300905842 /* ColorPickerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		280A382A141973C300905842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280A3839141973C300905842 /* InfoPlist.strings in Resources */,
+				280A3845141973C300905842 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		280A3828141973C300905842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280A383B141973C300905842 /* main.m in Sources */,
+				280A383F141973C300905842 /* AppDelegate.m in Sources */,
+				280A3842141973C300905842 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		280A3837141973C300905842 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280A3838141973C300905842 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		280A3843141973C300905842 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280A3844141973C300905842 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		280A3846141973C300905842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		280A3847141973C300905842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		280A3849141973C300905842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorPickerDemo/ColorPickerDemo-Prefix.pch";
+				INFOPLIST_FILE = "ColorPickerDemo/ColorPickerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		280A384A141973C300905842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorPickerDemo/ColorPickerDemo-Prefix.pch";
+				INFOPLIST_FILE = "ColorPickerDemo/ColorPickerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		280A3826141973C300905842 /* Build configuration list for PBXProject "ColorPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280A3846141973C300905842 /* Debug */,
+				280A3847141973C300905842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280A3848141973C300905842 /* Build configuration list for PBXNativeTarget "ColorPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280A3849141973C300905842 /* Debug */,
+				280A384A141973C300905842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 280A3823141973C300905842 /* Project object */;
+}
